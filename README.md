@@ -1,4 +1,4 @@
-# personal-portfolio
+# Personal Portfolio
 
 ### [Live Site](https://anshphirani.github.io/personal-portfolio)
 
