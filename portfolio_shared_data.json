@@ -1,68 +1,77 @@
 {
-    "basic_info": {
-      "name": "Ansh Phirani",
-      "titles": [ "Front-end Developer", "Android App Developer" ],
-      "social": [
-        {
-          "name": "linkedin",
-          "url": "https://www.linkedin.com/in/ansh-phirani/",
-          "class": "fab fa-linkedin"
-        },
-        {
-          "name": "github",
-          "url": "https://github.com/AnshPhirani",
-          "class": "fab fa-github"
-        },
-        {
-          "name": "twitter",
-          "url": "https://twitter.com/ansh_phirani",
-          "class": "fab fa-twitter"
-        }
-      ],
-      "image": "myprofile.jpg"
-    },
-    "skills": {
-      "icons": [
-        {
-          "name": "HTML 5",
-          "class": "devicon-html5-plain",
-          "level": "95"
-        },
-        {
-          "name": "CSS 3",
-          "class": "devicon-css3-plain",
-          "level": "95"
-        },
-        {
-          "name": "JavaScript",
-          "class": "devicon-javascript-plain",
-          "level": "70"
-        },
-        {
-          "name": "React",
-          "class": "devicon-react-plain",
-          "level": "75"
-        },
-        {
-          "name": "Bootstrap",
-          "class": "devicon-bootstrap-plain",
-          "level": "85"
-        },
-        {
-          "name": "Java",
-          "class": "devicon-java-plain",
-          "level": "65"
-        },
-        {
-          "name": "MongoDB",
-          "class": "devicon-mongodb-plain",
-          "level": "60"
-        },
-        {
-          "name": "MySql",
-          "class": "devicon-mysql-plain",
-          "level": "60"
-        }
-      ]
-    }
+  "basic_info": {
+    "name": "Ansh Phirani",
+    "titles": [
+      "Front-end Developer",
+      "Back-end Developer",
+      "Full-Stack Developer"
+    ],
+    "social": [
+      {
+        "name": "linkedin",
+        "url": "https://www.linkedin.com/in/ansh-phirani/",
+        "class": "fab fa-linkedin"
+      },
+      {
+        "name": "github",
+        "url": "https://github.com/AnshPhirani",
+        "class": "fab fa-github"
+      },
+      {
+        "name": "twitter",
+        "url": "https://twitter.com/ansh_phirani",
+        "class": "fab fa-twitter"
+      }
+    ],
+    "image": "myprofile2.jpeg"
+  },
+  "skills": {
+    "icons": [
+      {
+        "name": "HTML 5",
+        "class": "devicon-html5-plain",
+        "level": "95"
+      },
+      {
+        "name": "CSS 3",
+        "class": "devicon-css3-plain",
+        "level": "95"
+      },
+      {
+        "name": "Bootstrap",
+        "class": "devicon-bootstrap-plain",
+        "level": "85"
+      },
+      {
+        "name": "JavaScript",
+        "class": "devicon-javascript-plain",
+        "level": "70"
+      },
+      {
+        "name": "React",
+        "class": "devicon-react-plain",
+        "level": "75"
+      },
+      {
+        "name": "Nodejs",
+        "class": "devicon-nodejs-plain",
+        "level": "75"
+      },
+      {
+        "name": "MongoDB",
+        "class": "devicon-mongodb-plain",
+        "level": "60"
+      },
+      {
+        "name": "MySql",
+        "class": "devicon-mysql-plain",
+        "level": "60"
+      },
+      {
+        "name": "Java",
+        "class": "devicon-java-plain",
+        "level": "65"
+      }
+    ]
   }
+}

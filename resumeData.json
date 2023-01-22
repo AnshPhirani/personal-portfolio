@@ -1,0 +1,95 @@
+{
+  "basic_info": {
+    "description_header": "Hi, my name is Ansh. I am a Full-Stack Web Developer.",
+    "description": "My skillsets include languages like JavaScript, CSS3, HTML5 and Java together with frameworks like React JS, and Bootstrap, and cloud tools like firebase. I do this because I love the process of turning dreams into reality by converting ideas into code. I have a serious passion for converting top-grade UI’s with working logic to create a dynamic user experience.",
+    "section_name": {
+      "about": "About me",
+      "projects": "Projects",
+      "skills": "Skills",
+      "education": "Education"
+    }
+  },
+  "projects": [
+    {
+      "title": "Code.js",
+      "startDate": "2023",
+      "description": "Code editor that is specifically designed to support HTML, CSS, and JavaScript, the core technologies used for building the user interface of web applications. With a focus on these languages, it offers a variety of features that make writing and debugging code easier for frontend developers. Features such as syntax highlighting,  live preview to improve the coding experience and make it easier to write clean and maintainable code. The code editor is compatible with all major web browsers, so it is accessible to a wide range of developers.",
+      "images": [
+        "images/portfolio/code-js/codejs1.png",
+        "images/portfolio/code-js/codejs2.png"
+      ],
+      "url": "https://anshphirani.github.io/Codejs/",
+      "technologies": [
+        {
+          "class": "devicon-javascript-plain",
+          "name": "JavaScript"
+        },
+        {
+          "class": "devicon-react-original",
+          "name": "React"
+        }
+      ]
+    },
+    {
+      "title": "Amazon-clone",
+      "startDate": "2022",
+      "description": "Full-featured react application with e-commerce capabilities. It stores the user's shopping cart and order information using Firebase Real-time Database. Users are able to conduct transactions by integrating Stripe payments.",
+      "images": [
+        "images/portfolio/amazon-clone/amazon-homepage.png",
+        "images/portfolio/amazon-clone/amazon-cart.png"
+      ],
+      "url": "https://clone-6575.web.app/",
+      "technologies": [
+        {
+          "class": "devicon-javascript-plain",
+          "name": "JavaScript"
+        },
+        {
+          "class": "devicon-react-original",
+          "name": "React"
+        },
+        {
+          "class": "devicon-firebase-plain",
+          "name": "Firebase"
+        }
+      ]
+    },
+    {
+      "title": "Covid tracker",
+      "startDate": "2022",
+      "description": "built a Covid tracker in React.js that retrieved country-specific real-time data from an API. It makes use of Chart.js to present all recently updated records on an interactive graph along with the total number of cases, total deaths cases, and recovered cases.",
+      "images": [
+        "images/portfolio/covid-tracker/covid-tracker-1.png",
+        "images/portfolio/covid-tracker/covid-tracker-2.png",
+        "images/portfolio/covid-tracker/covid-tracker-3.png"
+      ],
+      "url": "https://anshphirani.github.io/covidtracker/",
+      "technologies": [
+        {
+          "class": "devicon-javascript-plain",
+          "name": "JavaScript"
+        },
+        {
+          "class": "devicon-react-original",
+          "name": "React"
+        }
+      ]
+    }
+  ],
+  "education": [
+    {
+      "company": "BTech in Computer Science",
+      "title": "Chitkara University",
+      "years": "08.2020 - Present",
+      "mainTech": ["Angular 8/9/10"],
+      "technologies": ["CGPA : 9.95/10"]
+    },
+    {
+      "company": "XII (Non-Medical)",
+      "title": "Patel Public School",
+      "years": "04.2018 - 03.2020",
+      "mainTech": ["Angular 7/8"],
+      "technologies": ["Percentage: 86/100"]
+    }
+  ]
+}
