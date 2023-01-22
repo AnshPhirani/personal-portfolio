@@ -232,7 +232,7 @@ header h1 {
 }
 
 .experience-icon {
-	font-size: 180%;
+	font-size: 300%;
 	margin-top: 25%;
 	text-align: center;
 }
@@ -434,4 +434,8 @@ footer a:focus {
 .social-links {
 	margin-top: 10px;
 	font-size: 22px;
+}
+.nav-link:hover{
+	transform: scale(1.08);
+	transition: 0.3s ease-in-out;
 }

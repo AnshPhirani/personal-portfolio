@@ -6,11 +6,11 @@ import {
 import "react-vertical-timeline-component/style.min.css";
 import Badge from "react-bootstrap/Badge";
 
-class Experience extends Component {
+class Education extends Component {
   render() {
-    if (this.props.resumeExperience && this.props.resumeBasicInfo) {
-      var sectionName = this.props.resumeBasicInfo.section_name.experience;
-      var work = this.props.resumeExperience.map(function (work, i) {
+    if (this.props.resumeEducation && this.props.resumeBasicInfo) {
+      var sectionName = this.props.resumeBasicInfo.section_name.education;
+      var work = this.props.resumeEducation.map(function (work, i) {
         const technologies = work.technologies;
         const mainTechnologies = work.mainTech;
         // eslint-disable-next-line
@@ -32,15 +32,15 @@ class Experience extends Component {
           <VerticalTimelineElement
             className="vertical-timeline-element--work"
             date={work.years}
-            // contentStyle={{border : "2px solid #AE944F" }}
-            contentStyle={{borderRadius : "2em", backgroundColor : "white"}}
+            // contentStyle={{ border: "2px solid #AE944F" }}
+            // contentStyle={{ borderRadius: "2em", backgroundColor: "white" }}
             iconStyle={{
               background: "#AE944F",
               color: "#fff",
               textAlign: "center",
-              height : "30px",
-              width : "30px",
-              marginLeft : "-15px"
+              // height: "30px",
+              // width: "30px",
+              // marginLeft: "-15px",
             }}
             // icon={<i className="fa-solid fa-user-graduate qualification_icon"></i>}
             key={i}
@@ -51,7 +51,11 @@ class Experience extends Component {
 
             <h3
               className="vertical-timeline-element-title"
-              style={{fontWeight : "700", textAlign: "left", marginBottom : "4px" }}
+              style={{
+                fontWeight: "700",
+                textAlign: "left",
+                marginBottom: "4px",
+              }}
             >
               {work.title}
             </h3>
@@ -61,7 +65,16 @@ class Experience extends Component {
             >
               {work.company}
             </h4>
-            <div style={{fontWeight : "600", fontSize : "large", textAlign: "left", marginTop: "15px" }}>{tech}</div>
+            <div
+              style={{
+                fontWeight: "600",
+                fontSize: "large",
+                textAlign: "left",
+                marginTop: "15px",
+              }}
+            >
+              {tech}
+            </div>
           </VerticalTimelineElement>
         );
       });
@@ -86,9 +99,6 @@ class Experience extends Component {
                 background: "#AE944F",
                 color: "#fff",
                 textAlign: "center",
-                height : "30px",
-                width : "30px",
-                marginLeft : "-15px",
               }}
               icon={
                 <i className="fas fa-hourglass-start mx-auto experience-icon"></i>
@@ -101,4 +111,4 @@ class Experience extends Component {
   }
 }
 
-export default Experience;
+export default Education;
