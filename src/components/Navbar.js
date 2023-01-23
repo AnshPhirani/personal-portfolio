@@ -67,7 +67,7 @@ function Navbar({ aboutRef, projectsRef, skillsRef }) {
               className="nav-link"
               target="_blank"
               rel="noopener noreferrer"
-              href="https://drive.google.com/file/d/14l2NgO7VEz4pPLmx9iQT4lGyz94W41qF/view"
+              href="https://drive.google.com/file/d/1UTL7p8u63xz96EhHpJcmaIawKiTDthVo/view"
             >
               Download Resume
             </a>
